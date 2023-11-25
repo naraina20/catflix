@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import "bootstrap-icons/font/bootstrap-icons.css";
 
 import english from './translations/en/global.json'
 import hindi from './translations/hi/global.json'

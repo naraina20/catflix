@@ -12,9 +12,9 @@ const Navbarcomponent=()=> {
     i18n.changeLanguage(lang);
   }
   return (
-    <Navbar expand="lg" className="">
+    <Navbar expand="lg" className="position-absolute w-100">
       <Container>
-        <Navbar.Brand href="#home">CATFLIX</Navbar.Brand>
+        <Navbar.Brand href="#home" className='text-danger'>CATFLIX</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
@@ -22,7 +22,7 @@ const Navbarcomponent=()=> {
               <NavDropdown.Item onClick={()=>{handleChangeSting("hi")}}>Hindi</NavDropdown.Item>
               <NavDropdown.Item onClick={()=>{handleChangeSting("en")}}>English</NavDropdown.Item>
             </NavDropdown>
-            <Button variant="danger" href="">{t("mainpage.nav")}</Button>
+            <Button className='btn-signup' href="">{t("mainpage.nav")}</Button>
           </Nav>
         </Navbar.Collapse>
       </Container>

@@ -1,7 +1,36 @@
+:root {
+  --main-red:#E50914;
+  --white: #ffffff;
+}
+
+
+
 .App {
   text-align: center;
 }
+
 .navbar-collapse{
   flex-grow: unset !important;
-  opacity: 0.5 !important;
+
+}
+.hero-nav{
+
+}
+
+.cheading{
+  font-weight: 800;
+  font-size: 50px;
+}
+
+.cpara{
+  font-size: 25px;
+}
+
+.btn-signup{
+  background-color: var(--main-red) !important;
+  border:var(--main-red) !important;
+}
+.hero-image{
+  height: 100vh;
+  background-image: url(../public/asset/images/hero.jpg);
 }

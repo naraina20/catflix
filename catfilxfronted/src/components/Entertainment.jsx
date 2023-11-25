@@ -1,6 +1,8 @@
 import React from "react";
+import { useTranslation } from 'react-i18next';
 
 const Entertainment = () => {
+  const [t]=useTranslation("global")
   return (
     <>
      <div className="text-light ">
@@ -10,10 +12,9 @@ const Entertainment = () => {
         <div className="bg-dark w-100" style={{ height: "10px" }}></div>
         <div className="w-75 m-auto d-flex row g-0 py-5">
           <div className="col-6 d-flex flex-column justify-content-center py-3 text-start">
-            <h1 className="cheading">Enjoy on your TV</h1>
+            <h1 className="cheading">{t('mainpage.h5')}</h1>
             <p className="cpara">
-              Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV,
-              Blu-ray players and more.
+            {t('mainpage.p5')}
             </p>
           </div>
           <div className="col-6  py-3 overflow-hidden">
@@ -38,9 +39,9 @@ const Entertainment = () => {
             />
           </div>
           <div className="col-6 d-flex flex-column justify-content-center py-3 text-start">
-            <h1 className="cheading">Download your shows to watch offline</h1>
+            <h1 className="cheading">{t('mainpage.h6')}</h1>
             <p className="cpara">
-              Save your favourites easily and always have something to watch.
+            {t('mainpage.p6')}
             </p>
           </div>
         </div>
@@ -49,10 +50,9 @@ const Entertainment = () => {
         <div className="bg-dark w-100" style={{ height: "10px" }}></div>
         <div className="w-75 m-auto d-flex row g-0 py-5">
           <div className="col-6 d-flex flex-column justify-content-center py-3 text-start">
-            <h1 className="cheading">Watch everywhere</h1>
+            <h1 className="cheading">{t('mainpage.h7')}</h1>
             <p className="cpara">
-              Stream unlimited movies and TV shows on your phone, tablet,
-              laptop, and TV.
+            {t('mainpage.p7')}
             </p>
           </div>
           <div className="col-6  py-3 overflow-hidden">
@@ -77,10 +77,9 @@ const Entertainment = () => {
             />
           </div>
           <div className="col-6 d-flex flex-column justify-content-center py-3 text-start">
-            <h1 className="cheading">Create profiles for kids</h1>
+            <h1 className="cheading">{t('mainpage.h8')}</h1>
             <p className="cpara">
-              Send children on adventures with their favourite characters in a
-              space made just for them—free with your membership.
+            {t('mainpage.p8')}
             </p>
           </div>
         </div>
@@ -90,7 +89,7 @@ const Entertainment = () => {
 
       <div className="text-light text-center">
         <div className="bg-dark w-100" style={{ height: "10px" }}></div>
-        <h1 className="pt-5 cheading">Frequently Asked Questions</h1>
+        <h1 className="pt-5 cheading">{t('mainpage.faqhead')}</h1>
         <div className="w-75 m-auto">
           <div id="accordion">
             <div class="card bg-dark text-light mb-2">

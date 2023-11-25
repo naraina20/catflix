@@ -1,6 +1,16 @@
 {
     "mainpage":{
         "nav":"signup",
-        "t1":"somthing"
+        
+        "h5":"Enjoy on your TV",
+        "p5":"Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.",
+        "h6":"Download your shows to watch offline",
+        "p6":"Save your favourites easily and always have something to watch.",
+        "h7":"Watch everywhere",
+        "p7":"Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.",
+        "h8":"Create profiles for kids",
+        "p8":"Send children on adventures with their favourite characters in a space made just for them—free with your membership.",
+        "faqhead":"Frequently Asked Questions"
+   
     }
 }
